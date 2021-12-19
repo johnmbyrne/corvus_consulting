@@ -55,3 +55,31 @@ h1, h2 {
 .active {
     border-bottom: 3px solid #3a3a3a;
 }
+
+/* Hero image */
+
+#hero_outer {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#hero_image {
+    height: 500px;
+    width: 100%;
+    background: url('../media/hero_image.jpg') no-repeat center center;
+    animation-name: hero_zoom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+/* creates the animation effect */
+
+@keyframes hero_zoom {
+    from{
+        transform: scale(.5);
+    }
+    to{
+        transform: scale(1);
+    }
+}
