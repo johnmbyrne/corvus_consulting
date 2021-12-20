@@ -25,6 +25,11 @@ h1, h2 {
 #logo {
     float: left;
     margin-left: 10%;
+    width: 33%;
+}
+
+#space {
+    width: 33%;
 }
 
 /* navigation links */
@@ -32,7 +37,9 @@ h1, h2 {
 #menu {
     font-size: 125%;
     letter-spacing: 2px;
-    margin-right: 10%;
+    margin-left: 10%;
+    width: 33%;
+    float: right;
 }
 
 #menu, #logo {
@@ -40,7 +47,7 @@ h1, h2 {
 }
 
 #menu li {
-    float: right;
+    float: left;
     list-style-type: none;
     margin-right: 30px;
 }
