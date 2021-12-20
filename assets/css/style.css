@@ -24,6 +24,7 @@ h1, h2 {
 
 #logo {
     float: left;
+    margin-left: 10%;
 }
 
 /* navigation links */
@@ -31,10 +32,11 @@ h1, h2 {
 #menu {
     font-size: 125%;
     letter-spacing: 2px;
+    margin-right: 10%;
 }
 
 #menu, #logo {
-    line-height: 200px;
+    line-height: 150px;
 }
 
 #menu li {
@@ -73,7 +75,7 @@ h1, h2 {
     animation-fill-mode: forwards;
 }
 
-/* creates the animation effect */
+/* create the animation effect */
 
 @keyframes hero_zoom {
     from{
