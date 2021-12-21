@@ -23,27 +23,16 @@ h1, h2 {
 }
 
 #logo {
-    float: left;
-    margin-left: 10%;
-    width: 33%;
-}
-
-#space {
-    width: 33%;
+    width: 50%;
 }
 
 /* navigation links */
 
 #menu {
-    font-size: 125%;
+    font-size: 1.2rem;
     letter-spacing: 2px;
-    margin-left: 10%;
-    width: 33%;
+    width: 50%;
     float: right;
-}
-
-#menu, #logo {
-    line-height: 150px;
 }
 
 #menu li {
@@ -106,13 +95,7 @@ hr {
     margin-right: 20%;
 }
 
-#affiliations {
-    margin-left: 20%;
-    margin-right: 20%;
-}
-
 #affil_intro {
     margin-top: 10px;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 20%;
 }
