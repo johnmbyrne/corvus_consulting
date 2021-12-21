@@ -22,17 +22,11 @@ h1, h2 {
     color: black;
 }
 
-#logo {
-    width: 50%;
-}
-
 /* navigation links */
 
 #menu {
     font-size: 1.2rem;
     letter-spacing: 2px;
-    width: 50%;
-    float: right;
 }
 
 #menu li {
