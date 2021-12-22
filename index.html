@@ -9,6 +9,7 @@
     <title>Home | Corvus Consulting Ltd</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="shortcut icon" href="assets/media/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header style="padding: 0 48px; display: flex; align-items: center; justify-content: space-between;">
@@ -38,14 +39,14 @@
     </section>
     <section id="intro">
         <h1 style="margin: 10px 0;">Our Mission</h1>
-        <p>Corvus Consulting Ltd’s mission is to help Small-Medium sized businesses to grow and overcome challenges through strategic, management, and operational consulting.</p>
+        <p><b>Corvus Consulting Ltd</b>’s mission is to help Small-Medium sized businesses to grow and overcome challenges through strategic, management, and operational consulting.</p>
         <p style="margin-top: 10px;">Using Data Analytics, Business Intelligence, Business Systems Analysis, and Organisational ReWilding methodologies to find underlying causes to issues that businesses face and working with the leadership team to overcome those issues and develop exceptional businesses going forward.
         </p>
     </section>
     <hr style="margin-top: 10px;">
     <section id="affil_intro">
         <h1 style="margin: 10px 0;">Our Affiliations:</h1>
-        <div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap;">
+        <div id="affiliations" style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap;">
         <figure style="width: 50%;">
             <img src="assets/media/imca.png" alt="Institute of Management Consultants and Advisers logo">
             <figcaption>Associate Member of the Institute of Management Consultants and Advisers</figcaption>
@@ -65,8 +66,16 @@
         </div>
     </section>
     <hr style="margin-top: 10px;">
-    <footer>
-        <p style="display: flex; justify-content: center; margin-top: 10px;">&copy; <script>document.write( new Date().getFullYear() );</script> Corvus Consulting Ltd</p>
+    <footer id="footer">
+        <ul class="contact">
+            <li>
+                <a href="mailto:corvus@consultant.com" aria-label="Send us an email"><i class="fa fa-envelope-square fa-3x"></i></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/company/corvus-consulting-limited/" target="_blank" rel="noopener" aria-label="Visit our LinkedIn page"><i class="fa fa-linkedin fa-3x"></i></a>
+            </li>
+        </ul>
+        <p style="display: flex; justify-content: center;">&copy; <script>document.write( new Date().getFullYear() );</script> Corvus Consulting Ltd</p>
     </footer>
 </body>
 </html>

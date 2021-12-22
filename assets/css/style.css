@@ -93,3 +93,23 @@ hr {
     margin-top: 10px;
     margin-left: 20%;
 }
+
+#footer {
+    background-color: #00ccff;
+    color: black;
+    height: 100%;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact > li {
+    display: inline;
+}
+
+.contact i {
+    margin: 10px;
+    padding: 5%;
+    color: black;
+}
