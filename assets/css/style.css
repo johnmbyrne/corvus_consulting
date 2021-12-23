@@ -48,23 +48,6 @@ h1, h2 {
     border-bottom: 3px solid #3a3a3a;
 }
 
-/* Hero image */
-
-#hero_outer {
-    height: 500px;
-    width: 100%;
-    overflow: hidden;
-}
-
-#hero_image {
-    height: 500px;
-    width: 100%;
-    background: url('../media/hero_image.jpg') no-repeat center center;
-    animation-name: hero_zoom;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-}
-
 /* create the animation effect */
 
 @keyframes hero_zoom {
@@ -90,8 +73,8 @@ hr {
 }
 
 #footer {
-    background-color: #00ccff;
-    color: black;
+    background-color: #0d6efd;
+    color: white;
     height: 100%;
 }
 
@@ -106,7 +89,7 @@ hr {
 .contact i {
     margin: 10px;
     padding: 5%;
-    color: black;
+    color: white;
 }
 
 #lever {
@@ -114,14 +97,8 @@ hr {
     margin: 0 0 0 15px;
 }
 
-@media screen and (max-width: 950px) {
-
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
-    
-}
+#fan {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
