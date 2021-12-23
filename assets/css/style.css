@@ -89,9 +89,14 @@ hr {
     margin-right: 20%;
 }
 
-#affil_intro {
+#affiliations {
     margin-top: 10px;
-    margin-left: 20%;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#affiliations > img {
+    width: 100%;
 }
 
 #footer {
