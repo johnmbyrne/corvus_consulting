@@ -11,7 +11,7 @@
 
 body {
     font-family: dm, sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     color: #3a3a3a;
 }
 /* headings and logo */
@@ -20,43 +20,6 @@ h1, h2 {
     font-family: dm, sans-serif;
     letter-spacing: 2px;
     color: black;
-}
-
-/* navigation links */
-
-#menu {
-    font-size: 1.2rem;
-    letter-spacing: 2px;
-}
-
-#menu li {
-    float: left;
-    list-style-type: none;
-    margin-right: 30px;
-}
-
-#menu a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#menu a:hover {
-    border-bottom: 2px solid #3a3a3a;
-}
-
-.active {
-    border-bottom: 3px solid #3a3a3a;
-}
-
-/* create the animation effect */
-
-@keyframes hero_zoom {
-    from{
-        transform: scale(.5);
-    }
-    to{
-        transform: scale(1);
-    }
 }
 
 #intro {
@@ -101,4 +64,9 @@ hr {
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  video {
+    width:100% !important;
+    height: auto !important;
   }
