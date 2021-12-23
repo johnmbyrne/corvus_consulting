@@ -118,3 +118,8 @@ hr {
     padding: 5%;
     color: black;
 }
+
+#lever {
+    float: right;
+    margin: 0 0 0 15px;
+}
