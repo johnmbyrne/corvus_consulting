@@ -1,6 +1,6 @@
 @font-face {
     font-family: dm;
-    src: url('assets/media/dmsans.ttf');
+    src: url("assets/media/dmsans.ttf");
 }
 
 hr {
@@ -39,9 +39,9 @@ hr {
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
+}
 
-  video {
-    width:100% !important;
+video {
+    width: 100% !important;
     height: auto !important;
-  }
+}
