@@ -116,4 +116,9 @@ The live link can be found here - https://johnmbyrne.github.io/corvus_consulting
 
 - The Hero Image used on the home page was provided by https://pixabay.com/
 - The images used on the Resporces page were provided by The ReWild Group
-- The Solutions image was provided by [Yay Images}(https://yayimages.com/)]
+- The Solutions image was provided by [Yay Images](https://yayimages.com/)
+
+### Code Snippets
+
+- Code snippets were taken and edited from [GetBootstrap](https://getbootstrap.com/) for the Navigation Bar and the Modal button on the Newsletter Subscription setting
+- The Hero Image animation was achieved by the code snippet taken from [Michael Snik](https://michalsnik.github.io/aos/)
